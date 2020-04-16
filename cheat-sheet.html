@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Common CSS Properties</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+      <h1>Common CSS Properties</h1>
+      <h2>CSS</h2>
+        <p>CSS is a language used along side HTML and is used to style your websites. Where HTML creates the structure of the webpage, CSS Creates a better stylistic appearance for it. CSS can be used within your HTML file either inline or with the style element. To keep things neater and more readible I would suggest using a seperate CSS stylesheet and link them together. To do so use the <strong>link</strong> element with attributes <strong>href</strong>, <strong>type</strong> and <strong>rel</strong>. Href is used to attach the<em> .style.css</em> file. Type is used to specify it is written in <em>text/css</em> and rel is used to specify it is linking to a related <em>stylesheet.</em> </p>
+      <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.wikihow.com%2Fimages%2Fthumb%2Fc%2Fcf%2FStyle-a-Link-with-CSS-Step-2.jpg%2Faid3547556-v4-728px-Style-a-Link-with-CSS-Step-2.jpg.webp&imgrefurl=https%3A%2F%2Fwww.wikihow.com%2FStyle-a-Link-with-CSS&tbnid=y-n9fiYxZlt3_M&vet=12ahUKEwjFwZPN2-zoAhWt1-AKHV1uBtMQMygDegUIARDvAQ..i&docid=7EpOvTSe0ExHJM&w=728&h=537&q=html%20css%20link%20stylesheet%20example&ved=2ahUKEwjFwZPN2-zoAhWt1-AKHV1uBtMQMygDegUIARDvAQ"> See example of link element</a>
+      <h2>CSS Selectors and Specificity</h2>
+        <p> Before going on to view the common CSS properties you should first be familiar with CSS selectors and their specificity. When writing CSS you should always use the least specific selector for the part of HTML you are using. This is so later if you choose to add another CSS property you can use a more specific tag and this will override your previous code. So fthe least specific selector is the tag e.g h1 or p. Then the class e.g in HTML this would be added to a element with class="nameofclass" and on css appears as .nameofclass. Finally the id e.g. on HTML would appear as atrribute id="nameofID" on CSS as #nameofid. To over ride all of these- which should be used only if absolutely necessary- use the !important attribute after the css declaration.</p>
+      <h2>List of CSS properties</h2>
+      <table>
+        <tr>
+          <th>Properties</th>
+          <th>Function</th>
+        </tr>
+        <tr>
+          <td>font-family:Calibri;</td>
+          <td>Font type</td>
+        </tr>
+        <tr>
+          <td>font-size:18px;</td>
+          <td>Size of text</td>
+        </tr>
+        <tr>
+          <td>font-weight:bold;</td>
+          <td>Thickness of text</td>
+        </tr>
+        <tr>
+          <td>text-align:right;</td>
+          <td>text starts at left, right or centre</td>
+        </tr>
+        <tr>
+          <td>color:red;</td>
+          <td>Colour of text</td>
+        </tr>
+        <tr>
+          <td>background-color:red;</td>
+          <td>Colour of background</td>
+        </tr>
+        <tr>
+          <td>opacity:0.75</td>
+          <td>How transparent from 0-1</td>
+        </tr>
+        <tr>
+          <td>background-image:url('www.website.com')</td>
+          <td>Image in background</td>
+        </tr>
+      </table>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
