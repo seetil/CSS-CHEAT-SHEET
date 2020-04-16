@@ -1,0 +1,21 @@
+table, th, td{
+  border: 1px solid black; text-align:center;
+}
+td, th{
+  background-color: #E9967A;
+  color: black;
+}
+table{
+  background-color:navy;
+}
+h1, h2{
+  color:navy;
+  font-family: 'Orbitron', sans-serif;
+}
+body{
+  background-image:url('https://www.designbolts.com/wp-content/uploads/2013/02/Pineapple-cut-Grey-Seamless-Pattern-For-Website-Background.jpg')
+}
+p{
+  color:SteelBlue;
+  
+}
